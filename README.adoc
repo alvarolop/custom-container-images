@@ -30,4 +30,17 @@ toc::[]
 
 
 
-== Java image with lsof and netsat
+== UBI8 OpenJDK-11 Enhanced
+
+
+Build the image:
+[source, bash]
+----
+podman build -t java-lsof:latest .
+----
+
+Tag the image and push it to your container repository:
+[source, bash]
+----
+
+----
